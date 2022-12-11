@@ -11,6 +11,8 @@
 		E611013629449429009A421C /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E611013529449429009A421C /* InitialView.swift */; };
 		E61101382944942B009A421C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61101372944942B009A421C /* Assets.xcassets */; };
 		E611013B2944942B009A421C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E611013A2944942B009A421C /* Preview Assets.xcassets */; };
+		E61101422945A712009A421C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61101412945A712009A421C /* HomeView.swift */; };
+		E61101442945A7B0009A421C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61101432945A7B0009A421C /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E611013529449429009A421C /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
 		E61101372944942B009A421C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E611013A2944942B009A421C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E61101412945A712009A421C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E61101432945A7B0009A421C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				E611013329449429009A421C /* UrWalletApp.swift */,
 				E611013529449429009A421C /* InitialView.swift */,
+				E61101432945A7B0009A421C /* MainView.swift */,
+				E61101412945A712009A421C /* HomeView.swift */,
 				E61101372944942B009A421C /* Assets.xcassets */,
 				E61101392944942B009A421C /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E61101422945A712009A421C /* HomeView.swift in Sources */,
+				E61101442945A7B0009A421C /* MainView.swift in Sources */,
 				E611013629449429009A421C /* InitialView.swift in Sources */,
 				E611013429449429009A421C /* UrWalletApp.swift in Sources */,
 			);
